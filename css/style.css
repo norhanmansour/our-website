@@ -213,3 +213,31 @@ h2,
 .bar .progress-bar{
     background-color: var(--main-color);
 }
+
+/* team section */
+.team-member img{
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.team-member .team-social{
+    background-color: rgba(242, 84, 84, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.team-member:hover .team-social{
+    opacity: 1;
+}
+.team-member:hover img{
+    transform: scale(1.2);
+}
+.team-member:hover h5{
+    color: var(--main-color);
+}
