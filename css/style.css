@@ -189,3 +189,27 @@ h2,
 .heading:hover .brdr {
     width: 80px;
 }
+
+/*--------------------------------------------- about section--------------- */
+.title h2{
+    font-size: 75px;
+    font-weight: 800;
+    color: #f1f1f1;
+}
+ 
+
+.section-title:hover ::after{
+    width: 90;
+}
+.section-title  p{
+   color: #999;
+   font-size: 18;
+}
+.parag{
+    font-family: "Open Sans", sans-serif;;
+    font-weight: 400;
+    color: #666666 ;
+}
+.bar .progress-bar{
+    background-color: var(--main-color);
+}
