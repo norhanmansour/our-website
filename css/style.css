@@ -44,7 +44,7 @@ w.navbar-nav li a:hover,
     top: 0;
     left: 100%;
     animation: moving 5s infinite;
-    transition: all 2s;
+    transition: all 3s;
 }
 
 .home-caption h2 {
@@ -137,7 +137,7 @@ header .mouse::after {
 
 @keyframes mouse-move {
     0% {
-        top: 15%;
+        top: 14%;
         opacity: 1;
     }
     100% {
@@ -162,7 +162,7 @@ header .mouse::after {
 }
 
 .heading p {
-    color: #999;
+    color: #555;
 }
 
 .fs-4rm {
@@ -227,7 +227,7 @@ h2,
     right: 0;
     bottom: 0;
     margin: 0 auto;
-    border-radius: 3px;
+    border-radius: 4px;
     text-align: center;
     opacity: 0;
     transition: all 0.3s;
